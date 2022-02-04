@@ -26,10 +26,14 @@ public class S1Q1_64010309 {
         }
         System.out.println("The selected member is " + matrix[pos[0]][pos[1]]);
 
-        check_top(matrix, pos);
-        check_right(matrix, pos);
+        //check_top(matrix, pos);
+        System.out.println();
+        //check_right(matrix, pos);
+        System.out.println();
         check_bottom(matrix, pos);
+        System.out.println();
         check_left(matrix, pos);
+        System.out.println();
     }
 
     static void check_top(int[][] m, int[] p) {
@@ -46,7 +50,7 @@ public class S1Q1_64010309 {
 
     static void check_right(int[][] m, int[] p) {
         System.out.print("Member on the Right Hand side : ");
-        if (p[1]+1 > m.length) {
+        if (p[1]+1 >= m.length) {
             System.out.println("NO");
         }
         else {
@@ -58,7 +62,7 @@ public class S1Q1_64010309 {
 
     static void check_bottom(int[][] m, int[] p) {
         System.out.print("Member on the Bottom : ");
-        if (p[0]+1 > m.length) {
+        if (p[0]+1 >= m.length) {
             System.out.println("NO");
         }
         else {
@@ -70,7 +74,7 @@ public class S1Q1_64010309 {
 
     static void check_left(int[][] m, int[] p) {
         System.out.print("Member on the Left Hand side : ");
-        if (p[1]+1 > m.length) {
+        if (p[1]-1 < 0) {
             System.out.println("NO");
         }
         else {
