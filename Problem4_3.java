@@ -9,7 +9,7 @@ public class Problem4_3 {
         int count = 0;
         for (int i = 0; i < 1000; i++) {
             arrayRand[i] = rand.nextInt(100000)/100.00;
-            System.out.printf("%.2f       ", arrayRand[i]);
+            System.out.printf("%10.2f", arrayRand[i]);
             count++;
             if (count % 5 == 0) {System.out.println();}
         }
@@ -20,7 +20,7 @@ public class Problem4_3 {
         s.stop();
         count = 0;
         for (int i = 0; i < 1000; i++) {
-            System.out.printf("%.2f       ", arrayRand[i]);
+            System.out.printf("%10.2f", arrayRand[i]);
             count++;
             if (count % 5 == 0) {System.out.println();}
         }
