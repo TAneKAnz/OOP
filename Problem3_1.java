@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class Problem3_1 {
     static boolean prime(int x) {
         if (x == 2) {

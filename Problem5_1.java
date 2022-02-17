@@ -12,9 +12,9 @@ public class Problem5_1 {
 }
 
 class Account {
-    private int id;
-    private double balance;
-    private double annualInterestRate;
+    private int id = 0;
+    private double balance = 0;
+    private double annualInterestRate = 0;
     private Date dateCreated;
 
     public Account() {
