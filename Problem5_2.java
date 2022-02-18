@@ -1,18 +1,18 @@
-import java.util.*;
+
 public class Problem5_2 {
     public static void main(String[] args) {
-        RegularPolygon p = new RegularPolygon();
+        RegularPolygon p1 = new RegularPolygon();
         System.out.println("Polygon1 :");
-        System.out.println("Perimeter = " + p.getPerimeter());
-        System.out.println("Area = " + p.getArea());
-        p = new RegularPolygon(6, 4);
+        System.out.println("Perimeter = " + p1.getPerimeter());
+        System.out.println("Area = " + p1.getArea());
+        RegularPolygon p2 = new RegularPolygon(6, 4);
         System.out.println("Polygon2 :");
-        System.out.println("Perimeter = " + p.getPerimeter());
-        System.out.println("Area = " + p.getArea());
-        p = new RegularPolygon(10, 4, 5.6, 7.8);
+        System.out.println("Perimeter = " + p2.getPerimeter());
+        System.out.println("Area = " + p2.getArea());
+        RegularPolygon p3 = new RegularPolygon(10, 4, 5.6, 7.8);
         System.out.println("Polygon3 :");
-        System.out.println("Perimeter = " + p.getPerimeter());
-        System.out.println("Area = " + p.getArea());
+        System.out.println("Perimeter = " + p3.getPerimeter());
+        System.out.println("Area = " + p3.getArea());
     }
 }
 
@@ -25,13 +25,11 @@ class RegularPolygon {
     RegularPolygon() {}
 
     RegularPolygon(int n, double side) {
-        this();
         this.n = n;
         this.side = side;
     }
 
     RegularPolygon(int n, double side, double x, double y) {
-        this();
         this.n = n;
         this.side = side;
         this.x = x;
