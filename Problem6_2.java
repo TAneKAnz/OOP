@@ -42,7 +42,7 @@ class Course {
             this.students[i] = null;
         }
     }
-    public void display(){
+    public static void display(){
         System.out.print("Course: " + courseName + ", credit: " + credit + "\nStudent in class: \n");
         for(int i = 0;i < students.length;i++){
             if(students[i] != null){
