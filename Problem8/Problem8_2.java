@@ -1,4 +1,6 @@
-public class Lab7_02 {
+package Problem8;
+
+public class Problem8_2 {
     public static void main(String[] args) {
         NewAccount account = new NewAccount("George", 1122, 1000);
         account.deposit(30);
