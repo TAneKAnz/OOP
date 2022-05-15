@@ -1,4 +1,4 @@
-package Problem8;
+package Problem7;
 
 public class Student extends Person {
     private String STATUS[] = { "Freshman", "Sophomore", "Junior", "Senior" };

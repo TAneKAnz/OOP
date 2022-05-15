@@ -1,4 +1,4 @@
-package Problem8;
+package Problem7;
 
 public class Problem7_2 {
     public static void main(String[] args) {

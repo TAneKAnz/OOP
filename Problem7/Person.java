@@ -1,4 +1,4 @@
-package Problem8;
+package Problem7;
 
 public class Person {
     private String name ;
