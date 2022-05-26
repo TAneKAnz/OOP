@@ -1,3 +1,4 @@
+package Problem9;
 public class Triangle extends GeometricObject {
     private double side1, side2, side3;
 

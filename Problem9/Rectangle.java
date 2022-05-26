@@ -1,3 +1,5 @@
+package Problem9;
+
 public class Rectangle extends GeometricObject{
     private double width, height;
     public Rectangle(){

@@ -1,4 +1,4 @@
-public class TestAccount {
+public class Midterm1 {
     public static void main(String[] args) {
         Account a1 = new Account();
         Account a2 = new Account("spotify", "taninwlol001@gmail.com");
